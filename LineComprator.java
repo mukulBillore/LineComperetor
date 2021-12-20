@@ -5,6 +5,7 @@ public class LineComprator {
 	double x2;
 	double y1;
 	double y2;
+	public boolean comperator(double line1 , double line2) {}
 	
 	public LineComprator(double x1, double x2, double y1, double y2) {
 		super();
@@ -24,6 +25,12 @@ public class LineComprator {
 	 System.out.println("Welome to line comperison program");
 	 LineComprator line1 = new LineComprator(12, 12, 13, 33);
 	 LineComprator line2 = new LineComprator(12, 12, 13, 33);
+	 Double lengthOfLine1 = line1.lineCreator();
+	 Double lengthOfLine2 = line2.lineCreator();
+	 if(lineOfLine1.compareTo(lengthOfLine2)) {
+	         System.out.println("both the line is equal");
+	 }	else System.out.println("Both the lines is not equal");
+	 
 	if(line1.equals(line2)) System.out.println("both the line is equal");
 	else System.out.println("Both the lines is not equal");
 	} 	
