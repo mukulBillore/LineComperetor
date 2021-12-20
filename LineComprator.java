@@ -23,7 +23,9 @@ public class LineComprator {
 	public static void main(String[] args) {
 	 System.out.println("Welome to line comperison program");
 	 LineComprator line1 = new LineComprator(12, 12, 13, 33);
-	
-	}
+	 LineComprator line2 = new LineComprator(12, 12, 13, 33);
+	if(line1.equals(line2)) System.out.println("both the line is equal");
+	else System.out.println("Both the lines is not equal");
+	} 	
 
 }
